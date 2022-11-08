@@ -8,7 +8,7 @@ const main = function () {
     dataSource.searchClub(searchElement.value);
   };
 
-  const renderResult = function (results) {
+  const renderResult = results => {
     clubListElement.innerHTML = '';
     results.forEach(function (club) {
       const {name,fanArt,description} = club;
