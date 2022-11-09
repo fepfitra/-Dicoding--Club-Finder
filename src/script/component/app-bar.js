@@ -9,7 +9,7 @@ class AppBar extends HTMLElement {
     }
    
     render() {
-      this.innerHTML = `
+      this.shadowDOM.innerHTML = `
         <style>
           * {
             margin: 0;
