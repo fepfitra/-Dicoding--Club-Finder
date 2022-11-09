@@ -1,9 +1,6 @@
 import './club-item.js';
 
 class ClubList extends HTMLElement {
-    connectedCallback() {
-        this.render();
-    }
 
     set clubs(clubs) {
         this._clubs = clubs;

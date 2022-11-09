@@ -1,7 +1,4 @@
 class ClubItem extends HTMLElement {
-    // connectedCallback() {
-    //     this.render();
-    // }
 
     set club(club) {
         this._club = club;
